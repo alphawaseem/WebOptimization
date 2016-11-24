@@ -3,6 +3,7 @@ var htmlmin = require('gulp-html-minifier2');
 var uglify = require('gulp-uglify');
 var pump = require('pump');
 var cleanCSS = require('gulp-clean-css');
+var responsive = require('gulp-responsive');
 
 gulp.task('css', function() {
   return gulp.src('./src/css/*.css')

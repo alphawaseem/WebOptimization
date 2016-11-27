@@ -431,8 +431,9 @@ var resizePizzas = function(size) {
       case "3" : newWidth = 50;break;
     }
     var randomPizzas = document.querySelectorAll(".randomPizzaContainer");
-    for(var i=0;i<randomPizzas.lenght;i++){
+    for(var i=0;i<randomPizzas.length;i++){
       randomPizzas[i].style.width = newWidth + "%";
+      console.log(randomPizzas[i].style.width);
     }
   }
 

@@ -4,7 +4,13 @@ var uglify = require('gulp-uglify');
 var pump = require('pump');
 var cleanCSS = require('gulp-clean-css');
 var responsive = require('gulp-responsive');
-
+var concatCss = require('gulp-concat-css');
+ 
+gulp.task('concatCss', function () {
+  return gulp.src('src/views/**/*.css')
+    .pipe(concatCss("css/bundle.css"))
+    .pipe(gulp.dest('src/views/'));
+});
 
 gulp.task('images', function () {
   return gulp.src('./src/img/*.{png,jpg}')

@@ -79,13 +79,13 @@ gulp.task('html', function(){
   );
 });
 
-gulp.task('views_html', function(){
+gulp.task('pizza_html', function(){
   return gulp.src( './src/views/*.html' )
   	.pipe(htmlmin({collapseWhitespace: true}))
     .pipe( gulp.dest('./dist/views/') ); 
 });
 
-gulp.task('views_js', function (cb) {
+gulp.task('pizza_js', function (cb) {
   pump([
         gulp.src('./src/views/js/*.js'),
         uglify(),
@@ -95,7 +95,7 @@ gulp.task('views_js', function (cb) {
   );
 });
 
-gulp.task('views_css', function() {
+gulp.task('pizza_css', function() {
   return gulp.src('./src/views/css/*.css')
     .pipe(cleanCSS({compatibility: 'ie8'}))
     .pipe(gulp.dest('dist/views/css/'));

@@ -11,9 +11,9 @@ In this project I have optimized Cameron's portfolio website.
 
 ## PageSpeed Insights Scores
 	
-	#### BEFORE:
-				index.html : **Speed 28**
-	#### AFTER:
-				index.html : **Speed 99**
+#### BEFORE:
+	index.html : **Speed 28**
+#### AFTER:
+	index.html : **Speed 99**
 
 ## Things I did to optimize this site

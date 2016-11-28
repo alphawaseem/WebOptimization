@@ -5,8 +5,8 @@ In this project I have optimized Cameron's portfolio website.
 
 ## Links to website
 
-* unoptimized site : [](http://cameronwp.github.io/udportfolio/index.html)
-* optimized site   : [](http://waseemahmed.in/cam_perf/index.html)
+* [unoptimized site](http://cameronwp.github.io/udportfolio/index.html)
+* [optimized site](http://waseemahmed.in/cam_perf/index.html)
 
 
 ## PageSpeed Insights Scores

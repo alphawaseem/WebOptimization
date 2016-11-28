@@ -19,16 +19,27 @@ In this project I have optimized Cameron's portfolio website.
 ## How to use gulp
  
  1. To minify html use this command:
+
  	```$ gulp html```
+
  2. To minify css files: 
-    ````$ gulp css```
+
+    ```$ gulp css```
+
  3. To minify js files:
+
  	```$ gulp js```
+
  4. To minify html in pizza site: 
+
  	```$ gulp pizza_html```
+
  5. To minify css in pizza site:
+
  	```$ gulp pizza_css```
+
  6. To minify js in pizza site:
+ 
  	```$ gulp pizza_js```
 
 
